@@ -345,6 +345,22 @@ body {
     }
   }
 
+  /* 노션 테이블 가운데 정렬 */
+  .notion-simple-table-wrap {
+    max-width: 100%;
+    overflow-x: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+    td {
+      border-color: var(--fg-color-lighten);
+    }
+
+    tr:first-child td {
+      background-color: var(--fg-color-lighten);
+    }
+  }
+
   // 일반 본문
   .notion-text {
     padding: 0.2em 2px;
