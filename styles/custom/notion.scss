@@ -80,7 +80,7 @@ body {
 .notion {
   // 페이지
   .notion-page {
-    line-height: 1.6;
+    line-height: 1.7;
   }
 
   // 페이지 제목
@@ -322,7 +322,7 @@ body {
   // 제목1 ~ 제목3
   .notion {
     &-h1 {
-      font-size: 1.7rem;
+      font-size: 2rem; /* 1.7em */
 
       &::after {
         content: '';
@@ -336,12 +336,12 @@ body {
     }
 
     &-h2 {
-      font-size: 1.4rem;
+      font-size: 1.7rem;
       margin-top: 2rem;
     }
 
     &-h3 {
-      font-size: 1.2rem;
+      font-size: 1.5rem;
     }
   }
 
@@ -353,7 +353,7 @@ body {
   // 리스트
   .notion-list {
     li {
-      padding: 3.5px 0;
+      padding: 5px 0;
       padding-left: 0.2rem;
 
       &::marker {
