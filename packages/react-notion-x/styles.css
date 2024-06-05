@@ -1082,6 +1082,7 @@ svg.notion-page-icon {
   font-size: 14px;
   line-height: 1.4;
   color: var(--fg-color-3);
+  text-align: center;
 }
 
 .notion-callout {
@@ -1128,7 +1129,7 @@ svg.notion-page-icon {
 
 .notion-collection {
   align-self: center;
-  min-width: 100%;
+  width: 100%;
 }
 
 .notion-collection-header {
@@ -1157,7 +1158,7 @@ svg.notion-page-icon {
   border: 0 none;
   border-radius: 3px;
   transition: background 120ms ease-in 0s;
-  background: transparent;
+  background: hsla(0,0%,100%,.8);
 }
 
 .notion-collection-view-dropdown:hover {
