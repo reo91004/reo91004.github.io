@@ -28,7 +28,7 @@ export const PageHead: React.FC<
 
       <meta name="robots" content="index,follow" />
       <meta property="og:type" content="website" />
-      <script async src={`https://www.googletagmanager.com/gtag/js?id=UA-444573843E`} />
+      <script async src={`https://www.googletagmanager.com/gtag/js?id=G-KQD63RVQFC`} />
       <script
         dangerouslySetInnerHTML={{
           __html: `
