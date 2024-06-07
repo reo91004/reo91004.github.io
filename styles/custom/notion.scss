@@ -183,6 +183,8 @@ body {
     // 우측 사이드 목차
     .notion-contentPosition {
       width: 100%;
+      max-height: calc(100vh - 300px);
+      overflow-y: auto; /* 수직 스크롤 허용 */
 
       .item {
         display: block;
