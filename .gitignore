@@ -39,4 +39,4 @@ yarn-error.log*
 .vercel
 
 # my files
-/public/create.py
+create.py
