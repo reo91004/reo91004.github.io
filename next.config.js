@@ -36,4 +36,8 @@ module.exports = withBundleAnalyzer({
     dangerouslyAllowSVG: true,
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
   },
+  assetPrefix:
+  process.env.NODE_ENV === "production"
+    ? "https://reo91004.github.io/reo91004.github.io"
+    : "",
 });
