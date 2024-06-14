@@ -37,7 +37,9 @@ module.exports = withBundleAnalyzer({
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
   },
   assetPrefix:
-  process.env.NODE_ENV === "production"
-    ? "https://reo91004.github.io/reo91004.github.io"
-    : "",
+    process.env.NODE_ENV === 'production' ? 'https://reo91004.github.io/reo91004.github.io' : '',
 });
+
+const nextConfig = {
+  basePath: '/reo91004.github.io',
+};
